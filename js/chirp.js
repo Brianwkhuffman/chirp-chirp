@@ -1,8 +1,5 @@
 function chirp(n) {
   let x = "chirp ";
-  if (n === 0) {
-    return;
-  }
   if (n === 1) {
     return x;
   } else {
