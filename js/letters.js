@@ -35,12 +35,11 @@ var counter = {
 };
 
 function countLetters(counter, sample_text) {
-  // FIX ME
-  let last = sample_text[sample_text.length - 1];
-  let key = last.toLowerCase();
   if (sample_text.length === 0) {
     return;
   }
+  let last = sample_text[sample_text.length - 1];
+  let key = last.toLowerCase();
   if (counter.hasOwnProperty(key)) {
     counter[key]++;
   }
